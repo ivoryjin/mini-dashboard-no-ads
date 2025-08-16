@@ -180,15 +180,6 @@ const Header = ({
           </SearchBoxWrapper>
           <RightSideWrapper>
             <ApiKey requireApiKeyToWork={requireApiKeyToWork} />
-            {showPanelButton && onPanelToggle && (
-              <IconButton
-                onClick={onPanelToggle}
-                type="button"
-                aria-label="Open Panel"
-              >
-                <MenuBarsIcon />
-              </IconButton>
-            )}
           </RightSideWrapper>
         </HeaderLayout>
       </HeaderContent>
